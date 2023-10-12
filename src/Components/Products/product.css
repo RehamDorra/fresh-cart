@@ -1,0 +1,23 @@
+.product{
+    transition: all , 0.4s;
+}
+
+.product:hover{
+    box-shadow: 1px 1px 10px #4fa74f;
+
+}
+
+.product .productbtn{
+    transform: translateY(100%);
+    opacity: 0;
+    transition: transform 0.7s , opacity 0.5s;
+}
+
+.product:hover .productbtn{
+    transform: translateY(0%);
+    opacity: 1;
+}
+
+.heart{
+    color: red;
+}
